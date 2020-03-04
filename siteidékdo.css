@@ -1,0 +1,93 @@
+body
+
+{
+    background-color: rgb(27,40,54);
+    color: white;
+}
+
+
+
+ul {
+    font-family: "Courier New";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(20,29,38);
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 45px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(46,67,89);
+}
+	
+
+#hdp {
+    width: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#listecapteurs {
+
+	 background-color: rgb(27,40,54);
+	 color: white;
+	 font-family: normal;
+	 margin-left:0;
+}
+#table1 {
+	font-size: 150%;
+	text-align:center;
+	}
+th{
+		font-size: 200%;
+		text-align:center;
+}
+.images {
+border-radius:50px;}
+.photo {
+border-radius:50px;
+padding:50px;}
+
+#table2 {font-size: 150%;
+text-align:center;}
+div {
+   font-size: 90%;   
+   width: 600px;
+    height: 150px;
+    padding: 15px;
+    background-color: rgb(95,129,191);
+    box-shadow: 10px 10px;
+}
+video {
+    width: 500px;
+    height: auto;
+	font-size:200%;
+	margin:0 auto;
+	
+}
+#p1{
+font-size:200%;
+width:1500px;}
+#p2 {
+text-align:center;
+ margin-left: 150px;}
